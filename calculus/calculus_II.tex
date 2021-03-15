@@ -70,27 +70,41 @@ Page \thepage}}
             %     }
             %     \label{fig:my_label}
             % \end{figure}
-            \begin{itemize}
-                \item Displacement: Change in position of an object. We use the symbol $\Delta x$ for displacement, where $\Delta$ means "change." A vector quantity with units of distance.
-                \item Distance: Total amount the object has moved. This depends on the whole path traveled, not just the starting and ending points. Distance traveled is always a non-negative number. A scalar quantity with units of distance.
-                \item Equation: \newline
-                
-                \begin{equation} \label{eu_eqn}
-					\Delta x = x - x_{0}   		
-         		\end{equation}
-				\begin{center}
-				$\Delta x$ is displacement, $x$ is the final position, $x_{0}$ is the initial position.
-				\\
-				Displacement is the difference between the final and initial positions.
-				\end{center}				         		
-         		
-                
-            \end{itemize}
+       
             
-   		\item Average velocity and speed
-   			\begin{align*}
-   				\overline{v} = \dfrac{\Delta x}{\Delta t} && / && v_{arg} = \dfrac{d}{\Delta t}
-   			\end{align*}
+   		\item Cực trị tự do
+            \begin{itemize}
+                \item $f(x, y)$ đạt cực đại tương đối tại $M_{0}(x_{0}, y_{0})$ :  
+                    \[f(x, y) = f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_{0}, y_{0}) \leqslant 0 \quad \forall (\Delta x, \Delta y) \to (0, 0)
+                    \] 
+                \item  $f(x, y)$ đạt cực tiểu tương đối tại $M_{0}(x_{0}, y_{0})$ :  
+                \[f(x, y) = f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_{0}, y_{0}) \geqslant  0 \quad \forall (\Delta x, \Delta y) \to (0, 0)
+                \] 
+                \item $M_{0}$ là điểm tới hạn :
+                    \[\dfrac{\partial f}{\partial x}(M_{0}) = \dfrac{\partial f}{\partial y}(M_{0}) = 0\]
+
+                    hoặc một trong hai không tồn tại.
+                \item Điều kiện cần :
+                    Nếu hàm số có cực trị tại $M_{0}$ thì $M_{0}$ là điểm tới hạn.
+                \item Điều kiện đủ :
+                    Ta có điểm $M_{0}$ là điểm tới hạn của hàm số.
+
+                    Để $M_{0}$ là điểm cực trị của hàm số:
+
+                    Ta xét:
+                        \[A = f''_{xx}(x_{0}, y_{0})\]
+                        \[B = f''_{xy}(x_{0}, y_{0})\]
+                        \[C = f''_{yy}(x_{0}, y_{0})\]
+                    \indent Để $M_{0}$ là điểm cực trị của hàm số:
+                        \[AC - B^{2} > 0\]
+                    Nếu $A > 0$ hoặc $C > 0$ $\Rightarrow$ cực tiểu địa phương.
+
+                    Nếu $A < 0$ hoặc $C < 0$ $\Rightarrow$ cực đại địa phương.
+                    
+                    Nếu $AC - B^{2} < 0$ $\Rightarrow$ không phải cực trị.
+
+                    Nếu $AC - B^{2} = 0$ $\Rightarrow$ cũng có thể là có, cũng có thể là không.
+            \end{itemize}
    				
    		
             
