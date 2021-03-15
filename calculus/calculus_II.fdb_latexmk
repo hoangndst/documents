@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1615821328 "/home/hoangndst/Public/my_latex/calculus/calculus_II.tex" "/home/hoangndst/Public/my_latex/calculus/calculus_II.pdf" "calculus_II" 1615821328
-  "/home/hoangndst/Public/my_latex/calculus/calculus_II.aux" 1615821328 32 044b7f8fc9779af7531264e0c5c84b6d ""
-  "/home/hoangndst/Public/my_latex/calculus/calculus_II.tex" 1615821328 3559 d2273955cd3fe4d290a7a14454bb7d06 ""
+["pdflatex"] 1615822262 "/home/hoangndst/Public/my_latex/calculus/calculus_II.tex" "/home/hoangndst/Public/my_latex/calculus/calculus_II.pdf" "calculus_II" 1615822262
+  "/home/hoangndst/Public/my_latex/calculus/calculus_II.aux" 1615822262 32 044b7f8fc9779af7531264e0c5c84b6d ""
+  "/home/hoangndst/Public/my_latex/calculus/calculus_II.tex" 1615822261 3999 c411e5abaa93a5c34d5dca2d6ee6df2e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1607249373 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1607249373 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -51,6 +51,7 @@
   "/usr/share/texmf-dist/tex/latex/base/inputenc.sty" 1607249373 5050 0d3b77275060ca09a40635b830c3c904 ""
   "/usr/share/texmf-dist/tex/latex/base/report.cls" 1607249373 23204 74c91ecbcc47161218f25d9d0651c0f7 ""
   "/usr/share/texmf-dist/tex/latex/base/size12.clo" 1607249373 8450 6fd3588c0e9d06f6f56c6cf4f7246466 ""
+  "/usr/share/texmf-dist/tex/latex/cases/cases.sty" 1607185936 9865 f4184f7819aee103905908cd33492412 ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1607249373 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1607249373 11128 a53805799bebfed6358fc1658a18e41f ""
   "/usr/share/texmf-dist/tex/latex/framed/framed.sty" 1607185936 22449 7ec15c16d0d66790f28e90343c5434a3 ""
@@ -75,11 +76,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1615814543 356325 82f4faa2e1b7eddc8858c8a475ca1dfb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1615814519 2635857 0a294c0109c5558cd38a99c462b482b8 ""
   "TE1.png" 1615817858 18304 07b176fc6c9aa3db82c65fa4143dadf8 ""
-  "calculus_II.aux" 1615821328 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "calculus_II.tex" 1615821328 3559 d2273955cd3fe4d290a7a14454bb7d06 ""
+  "calculus_II.aux" 1615822262 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "calculus_II.tex" 1615822261 3999 c411e5abaa93a5c34d5dca2d6ee6df2e ""
   (generated)
-  "calculus_II.log"
   "calculus_II.aux"
-  "calculus_II.pdf"
-  "/home/hoangndst/Public/my_latex/calculus/calculus_II.log"
   "/home/hoangndst/Public/my_latex/calculus/calculus_II.pdf"
+  "/home/hoangndst/Public/my_latex/calculus/calculus_II.log"
+  "calculus_II.log"
+  "calculus_II.pdf"
