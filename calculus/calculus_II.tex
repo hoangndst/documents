@@ -33,7 +33,7 @@
 @arch-techs}
 }
 \rhead{\textcolor{TEcolor} {
-	\fontfamily{cmss}\selectfont AP/College Physics 1
+	\fontfamily{cmss}\selectfont CALCULUS II
 }}
 \rfoot{
 \fontfamily{cmss}\selectfont \textcolor{TEcolor}{
@@ -63,7 +63,35 @@ Page \thepage}}
     \vspace{1cm}
     
     \begin{enumerate}
-        \item Khai triển Taylor
+        \item Vi phân
+            \[\Delta f(x_{0}, y_{0}) = f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_{0}, y_{0})\]
+
+            \[\Delta f(x_{0}, y_{0}) = A.\Delta x + B.\Delta'
+             y + \alpha.\Delta x + \beta . \Delta y\]
+
+             \[\Rightarrow df(x_0, y_{0}) = \dfrac{\partial f}{\partial x}.\Delta x + \dfrac{\partial f}{\partial y}.\Delta y\]
+
+            Xét sự khả vi của hàm số $f(x, y)$ :
+            \[\Delta f(x_{0}, y_{0}) = df(x_{0}, y_{0}) + \varepsilon (\rho ). \rho\]
+            Để hàm khả vi:
+            \[\lim_{\rho \to 0} \varepsilon(\rho) = \lim_{\rho \to 0} \dfrac{\Delta f(x_{0}, y_{0}) - df(x_{0}, y_{0})}{\rho}\]
+            \[df(x_{0}, y_{0}) = \dfrac{\partial f}{\partial x}(x_{0}, y_{0}) + \dfrac{\partial f}{\partial y}(x_{0}, y_{0})\]
+            Áp dụng tính gần đúng:
+            \[\Delta f(x_{0}, y_{0}) = df(x_{0}, y_{0}) + o(\rho)\]
+            \[\rightarrow \Delta f(x_{0}, y_{0}) \thickapprox df(x_{0}, y_{0})\]
+            \[\rightarrow f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_0, y_{0}) = df(x_{0}, y_{0}) \]
+
+        \item Vector Gradient
+            \[\dfrac{\partial f}{\partial \overrightarrow{u}}(x_{0}, y_{0}) = \overrightarrow{grad}f(x_{0}, y_{0}) . \overrightarrow{u} \]
+            
+            \[\dfrac{\partial f}{\partial \overrightarrow{u}}(x_{0}, y_{0}) = \lim_{\Delta x \to 0, \Delta y \to 0}\dfrac{f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_{0}, y_{0})}{\sqrt{\Delta x ^{2}+ \Delta y^{2}}}\]    
+            \[= \dfrac{\partial f}{\partial x}(x_{0}, y_{0})\cos \alpha + \dfrac{\partial f}{\partial y}(x_{0}, y_{0})\sin \alpha\]
+
+
+            Ta có:
+            \[\nabla f(x_{0}, y_{0}) = f'_{x}(x_{0}, y_{0}).\overrightarrow{i} + f'_{y}(x_{0}, y_{0}).\overrightarrow{j}\]
+            \[\overrightarrow{grad}f(x_{0}, y_{0}) = (f'_{x}(x_{0}, y_{0}), f'_{y}(x_{0}, y_{0}))\]
+        \item Khai triển Taylorinfty
             % \begin{figure}[h]
             %     \centering
             %     \includegraphics[scale=0.7]{Distancedisplacement}
