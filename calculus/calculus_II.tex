@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{report}
+\documentclass[15pt,a4paper]{report}
 % \usepackage[utf8]{inputenc}
 % \usepackage[vietnam]{babel}
 \usepackage[utf8]{vietnam}
@@ -86,12 +86,16 @@ Page \thepage}}
             
             \[\dfrac{\partial f}{\partial \overrightarrow{u}}(x_{0}, y_{0}) = \lim_{\Delta x \to 0, \Delta y \to 0}\dfrac{f(x_{0} + \Delta x, y_{0} + \Delta y) - f(x_{0}, y_{0})}{\sqrt{\Delta x ^{2}+ \Delta y^{2}}}\]    
             \[= \dfrac{\partial f}{\partial x}(x_{0}, y_{0})\cos \alpha + \dfrac{\partial f}{\partial y}(x_{0}, y_{0})\sin \alpha\]
-
+            \[\overrightarrow{u} = (\cos \alpha, \sin \alpha)\]
 
             Ta có:
             \[\nabla f(x_{0}, y_{0}) = f'_{x}(x_{0}, y_{0}).\overrightarrow{i} + f'_{y}(x_{0}, y_{0}).\overrightarrow{j}\]
             \[\overrightarrow{grad}f(x_{0}, y_{0}) = (f'_{x}(x_{0}, y_{0}), f'_{y}(x_{0}, y_{0}))\]
-        \item Khai triển Taylorinfty
+
+            \[\rightarrow \dfrac{\partial f}{\partial \overrightarrow{u}} (x_{0}, y_{0}) = \nabla f(x_{0}, y_{0}) . \overrightarrow{u}\]
+            \[= \left\lvert \nabla f(x_{0}, y_{0})\right\rvert.\left\lvert \overrightarrow{u} \right\rvert . \cos \alpha \quad : \left\lvert \overrightarrow{u} \right\rvert = 1\]
+            
+        \item Khai triển Taylor
             % \begin{figure}[h]
             %     \centering
             %     \includegraphics[scale=0.7]{Distancedisplacement}
@@ -144,9 +148,27 @@ Page \thepage}}
                 Xét tìm cực trị hàm số $f(x, y)$ với điều kiện $\varphi(x, y) = 0$
                 \[L(x, y, \lambda) = f(x, y) + \lambda . \varphi(x, y)\]
                 Ta có các điểm dừng:
+                \begin{align*}
+                L'_{x} &= 0 & f'_{x}(x, y) + \lambda.\varphi'_{x}(x, y) &= 0\\
+                L'_{y} &= 0 & f'_{y}(x, y) + \lambda.\varphi'_{y}(x, y) &= 0 \\
+                L'_{\lambda} & = 0 & \varphi(x, y) &= 0
+            \end{align*}
+                \[\Rightarrow \lambda, x_{0}, y_{0}\]
+                \[\Rightarrow M(x_{0}, y_{0})\]
+                Dựa vào dấu của $d^{2}L(M_{0})$ ta biết được $M_{0}(x_{0}, y_{0})$ có phải là điểm cực trị hay không.
+                \[d^{2}L(M_{0}) = L''_{xx}(M_{0})dx^{2} + 2L''_{xy}(M_{0})dxdy + L''_{yy}(M_{0})dy^{2}\]
+
+                Chú ý:
+                \[d\varphi(M_{0}) = \varphi'_{x}(M_{0}) dx + \varphi'_{y}(M_{0}) dy\]
+                \[\Rightarrow dy = -\dfrac{\varphi'_{x}(M_{0})dx}{\varphi'_{y}(M_{0})}\]
+                Nếu $d^{2}L(M_{0}) > 0 \Rightarrow$ cực tiểu.
                 
+                Nếu $d^{2}L(M_{0}) < 0 \Rightarrow$ cực đại.
+                
+                Nếu không xác đinh thì không phải cực trị.
             \end{itemize}
-   		
+        \item Tích phân bội 2
+        
             
     \end{enumerate}
     
