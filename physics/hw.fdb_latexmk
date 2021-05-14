@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1620999881 "/home/hoangndst/Public/my_latex/physics/hw.tex" "/home/hoangndst/Public/my_latex/physics/hw.pdf" "hw" 1620999883
-  "/home/hoangndst/Public/my_latex/physics/hw.aux" 1620999883 32 044b7f8fc9779af7531264e0c5c84b6d ""
-  "/home/hoangndst/Public/my_latex/physics/hw.tex" 1620999881 4983 45c7f974ebf0800a20249213d288b6ca ""
+["pdflatex"] 1621000002 "/home/hoangndst/Public/my_latex/physics/hw.tex" "/home/hoangndst/Public/my_latex/physics/hw.pdf" "hw" 1621000004
+  "/home/hoangndst/Public/my_latex/physics/hw.aux" 1621000003 32 044b7f8fc9779af7531264e0c5c84b6d ""
+  "/home/hoangndst/Public/my_latex/physics/hw.tex" 1621000001 5030 365f79e45a233e76ba2ab3f67bbc3549 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1607249373 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1607249373 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -148,11 +148,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1615814543 356325 82f4faa2e1b7eddc8858c8a475ca1dfb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1615814519 2635857 0a294c0109c5558cd38a99c462b482b8 ""
   "TE1.png" 1615818521 18304 07b176fc6c9aa3db82c65fa4143dadf8 ""
-  "hw.aux" 1620999883 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "hw.tex" 1620999881 4983 45c7f974ebf0800a20249213d288b6ca ""
+  "hw.aux" 1621000003 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "hw.tex" 1621000001 5030 365f79e45a233e76ba2ab3f67bbc3549 ""
   (generated)
-  "hw.log"
   "hw.pdf"
+  "hw.log"
+  "/home/hoangndst/Public/my_latex/physics/hw.pdf"
   "hw.aux"
   "/home/hoangndst/Public/my_latex/physics/hw.log"
-  "/home/hoangndst/Public/my_latex/physics/hw.pdf"

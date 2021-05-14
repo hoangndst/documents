@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.15)  14 MAY 2021 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.15)  14 MAY 2021 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,7 +651,7 @@ This may cause the page layout to be inconsistent, however.
  </home/hoangndst/Public/my_latex/physics/TE1.png>]
 File: TE1.png Graphic file (type png)
 <use TE1.png>
-Package pdftex.def Info: TE1.png  used on input line 144.
+Package pdftex.def Info: TE1.png  used on input line 147.
 (pdftex.def)             Requested size: 11.41844pt x 10.8403pt.
  [2] (/home/hoangndst/Public/my_latex/physics/hw.aux) ) 
 Here is how much of TeX's memory you used:
@@ -663,7 +663,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,16n,85p,423b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnss17.pfb>
-Output written on /home/hoangndst/Public/my_latex/physics/hw.pdf (2 pages, 129219 bytes).
+Output written on /home/hoangndst/Public/my_latex/physics/hw.pdf (2 pages, 129346 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
