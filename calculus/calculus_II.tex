@@ -168,8 +168,25 @@ Page \thepage}}
                 Nếu không xác đinh thì không phải cực trị.
             \end{itemize}
         \item Tích phân bội 2
-        
+            Thuật toán sẽ xuất ra K điểm trung tâm  của K nhóm và gắn mác(nhãn, nhóm thuộc về) cho từng điểm đầu vào.
             
+            Sau khi có list $distancetocl$ ta sẽ tìm ra (giá trị nhỏ nhất) khoảng cách nhỏ nhất của điểm đầu (points[0]) đến từng điểm trong $clusters$ ghi nhớ vị trí (index) của nó rồi lưu vào list $labels$. Tiếp tục tính tương tự đối với các phần tử tiếp theo trong list $points$. \\ 
+            \[labels = [l_{1}, l_{2}, ..., l_{n}] \in \mathbf{R} ^{1.n}\]
+            Mỗi giá trị trong $labels$ sẽ đánh dấu các điểm K \\
+            Múc đích của việc này là đẻ gắn nhãn cho các điểm. \\
+            
+
+            Tiếp theo chúng ta sẽ cập nhật tọa độ của từng điểm K trong $clusters$, cứ tiếp tục vòng lặp cho đến khi phân chia được kết quả.
+
+
+            Tọa độ mới của từng điểm K là trung bình cộng của các điểm trong $points$ được gán vào nhóm K đó. Sau khi có vị trí K mới ta sẽ cập nhật lại cho đến khi vị trí của K được cố định.
+
+
+
+
+Bước tiếp theo là chạy thuật toán. Nói một cách đơn gian chúng ta đang có $points = [p_{1}, p_{2}, ..., p_{n}] \in  \mathbf{R} ^{2.n}$ là tập hợp các điểm ta nhấp lên màn hình. $clusters = [c_{1}, c_{2}, ... , c_{K}] \in \mathbf{R}^{2.K} $ là số  điểm mà chúng ta vừa random. Bây giờ chúng ta sẽ tính khoảng cách của từng điểm trong $points$ tới các điểm trong $clusters$ rồi lưu nó vào một list mới $distancetocl$. \[distancetocl = \left[d_{1}, d_{2}, ..., d_{K}\right] \in \mathbf{R}^{2.K}\]
+
+           
     \end{enumerate}
     
 \end{center}

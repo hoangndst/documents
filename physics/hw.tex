@@ -1,0 +1,144 @@
+\documentclass[12pt,a4paper]{report}
+% \usepackage[utf8]{inputenc}
+% \usepackage[vietnam]{babel}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{framed}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{tikz,tkz-tab}
+
+
+\title{\framebox {
+        \textcolor{TEcolor}{
+            \Huge {    AP/College Physics 1    }
+        }
+    }    }
+    
+\author{\Large @arch-techs}
+\date{2021}
+
+\definecolor{TEcolor}{RGB}{0, 50, 50}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics[scale=0.2]{TE1}
+\textcolor{TEcolor}{
+\fontfamily{cmss}\selectfont
+@arch-techs}
+}
+\rhead{\textcolor{TEcolor} {
+	\fontfamily{cmss}\selectfont AP/College Physics 1
+}}
+\rfoot{
+\fontfamily{cmss}\selectfont \textcolor{TEcolor}{
+Page \thepage}}
+
+
+\begin{document}
+{\fontfamily{cmss}\selectfont
+
+\begin{center}
+    \framebox{
+      \Large \textcolor{TEcolor}{BTVN: Chương 5: Nhiệt Động Lực Học Chất Khí }
+}
+\newline
+
+      \textcolor{TEcolor}{Họ và tên: Nguyễn Đình Hoàng - 20021361}
+\end{center}
+
+Bài 3: Thể tích của một khối lượng nhất định khí lý tưởng khi được nung nóng
+$\varDelta T$ = 1 K ở áp suất không đổi tăng thêm $\alpha $ = $\dfrac{1}{335}$ phần của thể tích ban đầu.
+Nhiệt độ khí ban đầu là bao nhiêu?
+\begin{center}
+    Bài làm: \\
+    Do áp suất không đổi, nên ta có phươn trình: \\
+    $\dfrac{V_{1}}{T_{1}} = \dfrac{V_{2}}{T_{2}}$
+    $\Leftrightarrow  \dfrac{V_{1}}{T_{1}} = \dfrac{V_{1} + \dfrac{1}{335}V_{1}}{T_{1} + 1}$
+    $\Leftrightarrow  \dfrac{1}{T_{1}} = \dfrac{1 + \dfrac{1}{335}}{T_{1} + 1}$
+    \[\Rightarrow T_{1} = 335K\] 
+    Vậy nhiệt độ khí ban đầu là: $335K$.
+
+\end{center}
+
+Bài 4: Chất khí ở $t_{1} = 107^o C $ có áp suất $p_{1} = 106 Pa.$ Áp suất khí sẽ giảm đi bao
+nhiêu khi nó được làm lạnh đẳng tích đến $t_{2} = -13^o C$?
+\begin{center}
+    Bài làm: \\
+    Do là quá trình đẳng tích nên ta có phươn trình: \\
+    $\dfrac{P_{1}}{T_{1}} = \dfrac{P_{2}}{T_{2}}$
+    $\Leftrightarrow  \dfrac{106}{107 + 273} = \dfrac{P_{2}}{-13 + 273}$
+    \[\Rightarrow P_{2} \thickapprox 72.53Pa\] 
+    Vậy áp suất khí sẽ giảm đi: $106 - 72.53 = 33.47 (Pa)$.
+
+\end{center}
+
+Bài 5: Một hình trụ chứa thể tích $V_{1} = 0,035 m^3$ không khí dưới áp suất $p_{1} = 100kPa$, nối với hình trụ có thể tích $V_{2} = 0,015 m^3$
+từ đó không khí được bơm ra hoàn toàn (bình chân không). Tìm áp suất $p_{2}$ được thiết lập trong các bình sau
+khi chúng được nối với nhau biết nhiệt độ không đổi.
+
+\begin{center}
+    Ta có: $V_{1} = 0,035 m^3 = 35l$, $V_{2} = 0,015 m^3 = 15l$. \\
+    Do quá trình đẳng nhiệt nên ta có phương trình: \\
+    $P_{1}V_{1} = P_{2}V_{2}$
+    $\Leftrightarrow 100(kPa).35 = P_{2}.15$ \\
+    $\Rightarrow P_{2} = \dfrac{700}{3} (kPa)$
+\end{center}
+
+Bài 6: Cho giản đồ $V(T)$ của một khí lý tưởng như hình:
+
+
+\begin{center}
+    \begin{tikzpicture}[scale=1, font=\footnotesize, line join=round, line cap=round, >=stealth]
+    \draw (0,0) node [below left] {$O$};
+    \draw[->] (0,0)--(5,0) node[below] {$T$};
+    \draw[->] (0,0)--(0,5) node[below left] {$V$};
+    {\color{black}}{
+    \draw[samples=200,domain=1:3,smooth,variable=\x] plot (\x,{(\x)}) node[right]{};
+    }
+    \draw[samples=200,domain=0:1,smooth,variable=\x, dashed] plot (\x,{(\x)}) node[right]{};
+    \draw[-](3,3)|-(3,2) (3,2) |- (4,2);
+    \path
+    (1,1)node[below]{$1$}
+    (3,3)node[above]{$2$}
+    (3,2)node[below]{$3$}
+    (4,2)node[below]{$4$};
+    \end{tikzpicture}
+\end{center}
+ Hãy vẽ giản đồ p-V và p-T cho các quá trình trên.
+\newpage
+
+\begin{center}
+    \begin{tikzpicture}[scale=1, font=\footnotesize, line join=round, line cap=round, >=stealth]
+    \draw (0,0) node [below left] {$O$};
+    \draw[->] (0,0)--(0,5) node[below left] {$P$};
+    \draw[->] (0,0)--(5,0) node[below] {$V$};
+    \draw[samples=200,domain=4:2.5,smooth,variable=\x] plot (\x,{-1*(\x)+ 5}) node[right]{};
+    \draw[-](1,1)|-(4,1) (2.5,2.5) |- (2.5,4);
+    \path
+    (1,1)node[below]{$1$}
+    (4,1)node[below]{$2$}
+    (2.5,2.5)node[below]{$3$}
+    (2.5,4)node[above]{$4$};
+    \end{tikzpicture}
+    \hspace{3cm}
+    \begin{tikzpicture}[scale=1, font=\footnotesize, line join=round, line cap=round, >=stealth]
+        \draw (0,0) node [below left] {$O$};
+        \draw[->] (0,0)--(0,5) node[below left] {$P$};
+        \draw[->] (0,0)--(5,0) node[below] {$T$};
+        \draw[samples=200,domain=3:4.5,smooth,variable=\x] plot (\x,{(\x)-1/2}) node[right]{};
+        \draw[-](1,1)|-(3,1) (3,1) |- (3,2.5);
+        \path
+        (1,1)node[below]{$1$}
+        (3,1)node[below]{$2$}
+        (3,2.5)node[left]{$3$}
+        (4.5,4)node[above]{$4$};
+        \end{tikzpicture}
+\end{center}
+}
+\end{document}
